@@ -8194,7 +8194,7 @@ h1, h2, h3, h4, h5,
 #sidebar {
   min-width: 250px;
   max-width: 250px;
-  background: #212121;
+  background: #142043;
   color: #fff;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -8343,5 +8343,40 @@ a[data-toggle="collapse"] {
     font-size: 17px;
     color: #d2c8c8;
     cursor: pointer
+}
+
+.name {
+    font-size: 22px;
+    font-weight: bold
+}
+
+.number {
+    font-size: 22px;
+    font-weight: bold
+}
+
+.follow {
+    font-size: 12px;
+    font-weight: 500;
+    color: #444444
+}
+
+.btn1 {
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: #000;
+    color: #aeaeae;
+    font-size: 15px
+}
+
+.text span {
+    font-size: 13px;
+    color: #545454;
+    font-weight: 500
+}
+
+.card {
+  width: 90%;
 }
 
