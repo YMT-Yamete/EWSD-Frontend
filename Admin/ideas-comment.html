@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-  	<title>Hexa University Admin Dashboard</title>
+  	<title>Admin Dashboard</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -27,7 +27,7 @@
 	          <span class="sr-only">Toggle Menu</span>
 	        </button>
         </div>
-	  		<h1><a href="index.html" class="logo">Hexa University</a></h1>
+	  		<h1><a href="accounts.html" class="logo">Hexa University<br><span style="font-size: 13px;">Admin Dashboard</span></a></h1>
         <ul class="list-unstyled components mb-5">
           <li>
             <a href="accounts.html"><span class="fa fa-users mr-3"></span>Accounts</a>
@@ -44,6 +44,9 @@
           <li>
             <a href="profile.html"><span class="fa fa-user mr-3"></span>Profile</a>
           </li>
+          <li style="padding: 10px;">
+            <button type="button" class="btn btn-secondary" style="width: 100%;">Logout</button>
+          </li>
         </ul>
 
     	</nav>
@@ -55,7 +58,12 @@
                       <div class="d-flex flex-row justify-content-between align-items-center p-2 border-bottom">
                           <div class="d-flex flex-row align-items-center feed-text px-2">
                               <img class="rounded-circle" src="https://i.imgur.com/aoKusnD.jpg" width="45">
-                              <div class="d-flex flex-column flex-wrap ml-2"><span class="font-weight-bold">Thomas</span><span class="text-black-50 time">40 minutes ago</span></div>
+                              <div class="d-flex flex-column flex-wrap ml-2">
+                                <a href="account-view.html" style="color: black;">
+                                  <span class="font-weight-bold">Thomas</span>
+                                </a>
+                                <span class="text-black-50 time">40 minutes ago</span>
+                              </div>
                           </div>
                           <div class="feed-icon px-2"><i class="fa fa-ellipsis-v text-black-50"></i></div>
                       </div>
@@ -64,9 +72,9 @@
                     <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                   </div>
                   <div class="d-flex justify-content-end socials p-2 py-3">
-                    <i class="fa fa-thumbs-up" style="color: #2F89FC"> 15</i>
+                    <i class="fa fa-thumbs-up"> 15</i>
                     <i class="fa fa-thumbs-down"> 3</i>
-                    <i class="fa fa-comments-o"> 7</i>
+                    <i class="fa fa-comments-o" onclick="location.href='ideas-comment.html'"> 7</i>
                   </div>
             </div><br>
             <!---------------------- comments ---------------------------->
@@ -76,23 +84,38 @@
                 <li class="list-group-item">
                   <div class="d-flex flex-row align-items-center feed-text px-2">
                       <img class="rounded-circle" src="https://i.imgur.com/aoKusnD.jpg" width="45">
-                      <div class="d-flex flex-column flex-wrap ml-2"><span class="font-weight-bold">Thomas</span><span class="text-black-50 time">40 minutes ago</span></div>
+                      <div class="d-flex flex-column flex-wrap ml-2">
+                        <a href="account-view.html" style="color: black;">
+                          <span class="font-weight-bold">Thomas</span>
+                        </a>
+                        <span class="text-black-50 time">40 minutes ago</span>
+                      </div>
                   </div><br>
                   <p style="margin-left: 30px;">umm....the idea is kinda good but blah balah.</p>
                 </li>
                 <li class="list-group-item">
                   <div class="d-flex flex-row align-items-center feed-text px-2">
                       <img class="rounded-circle" src="https://i.imgur.com/aoKusnD.jpg" width="45">
-                      <div class="d-flex flex-column flex-wrap ml-2"><span class="font-weight-bold">Thomas</span><span class="text-black-50 time">40 minutes ago</span></div>
+                      <div class="d-flex flex-column flex-wrap ml-2">
+                        <a href="account-view.html" style="color: black;">
+                          <span class="font-weight-bold">Thomas</span>
+                        </a>
+                        <span class="text-black-50 time">1 hour ago</span>
+                      </div>
                   </div><br>
-                  <p style="margin-left: 30px;">Very Nice</p>
+                  <p style="margin-left: 30px;">Good</p>
                 </li>
                 <li class="list-group-item">
                   <div class="d-flex flex-row align-items-center feed-text px-2">
                       <img class="rounded-circle" src="https://i.imgur.com/aoKusnD.jpg" width="45">
-                      <div class="d-flex flex-column flex-wrap ml-2"><span class="font-weight-bold">Thomas</span><span class="text-black-50 time">40 minutes ago</span></div>
+                      <div class="d-flex flex-column flex-wrap ml-2">
+                        <a href="account-view.html" style="color: black;">
+                          <span class="font-weight-bold">Thomas</span>
+                        </a>
+                        <span class="text-black-50 time">2 hours ago</span>
+                      </div>
                   </div><br>
-                  <p style="margin-left: 30px;">Very Bad.</p>
+                  <p style="margin-left: 30px;">Bad</p>
                 </li>
               </ul>
             </div>
